@@ -1,0 +1,74 @@
+h1{
+    color: rgb(215, 145, 65);
+}
+
+.container{
+    border: 5px dashed rgb(226, 226, 226);
+    height: 690px
+}
+
+.position{
+    width: 100px;
+    height: 100px;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.static{
+    margin: 10px;
+    background-color: rgb(165, 165, 225);
+}
+
+.relative1{
+    margin: 10px;
+    background-color:  rgb(225, 221, 165);
+    position: relative;
+    z-index: 1;
+    bottom: 30px;
+    left: 200px;
+    /*bottom: 30px;
+    left: 30px;*/
+}
+
+.absolute{
+    margin: 10px;
+    background-color:  rgb(225, 165, 165);
+    /* position: absolute;
+    right: 5%;
+    top: 90%;*/
+    
+}
+
+.relative2{
+    margin: 10px;
+    background-color:  rgb(225, 199, 165);
+    position: relative;
+    z-index: 0;
+    bottom: 300px;
+    left: 200px;
+    /*bottom: 30px;
+    left: 30px;*/
+}
+
+.fixed{
+    margin: 10px;
+    background-color:  rgb(165, 225, 183);
+    /* right: 200px;
+    top: 0;*/
+}
+
+
+.sticky{
+    margin: 10px;
+    background-color:  rgb(165, 208, 225);
+    /* position: sticky;
+    top: 0;*/
+}
+
+
+
+
+
